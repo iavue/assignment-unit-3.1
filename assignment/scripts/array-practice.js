@@ -85,6 +85,9 @@ console.log('The foods are now', favoriteFoods);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
+favoriteFoods.splice(1, 1);
+favoriteFoods.splice(1,0,'bobatea');
+console.log(favoriteFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
@@ -98,3 +101,5 @@ console.log('The foods are now', favoriteFoods);
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+let merge = favoriteFoods.concat(animalArray);
+console.log(merge);
